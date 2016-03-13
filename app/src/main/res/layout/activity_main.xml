@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <HorizontalScrollView
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:background="@color/weekday" />
+                <TextView android:layout_width="1dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期一"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+                <TextView android:layout_width="1dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期二"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+
+                <TextView android:layout_width="1dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期三"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+                <TextView android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:padding="5px"
+                android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期四"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+                <TextView android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:padding="5px"
+                android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期五"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+                <TextView android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:padding="5px"
+                android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期六"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+                <TextView android:layout_width="1dp"
+                android:layout_height="35dp"
+                android:padding="5px"
+                android:background="@color/apartLine" />
+
+                <TextView android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:padding="5px"
+                    android:text="星期天"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/weekday" />
+
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="一"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_1"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_2"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_3"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_4"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_5"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_6"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_1_7"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classOne"
+                        android:text="课程"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="二"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_1"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_2"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_3"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_4"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_5"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_6"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_2_7"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classTwo"
+                        android:text="课程"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="三"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_1"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_2"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_3"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_4"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_5"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_6"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_3_7"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classThree"
+                        android:text="课程"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="四"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_1"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_2"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_3"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_4"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_5"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_6"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_4_7"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFour"
+                        android:text="课程"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="五"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_5_1"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_5_2"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_5_3"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_5_4"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+                        android:id="@+id/class_5_5"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_5_6"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_5_7"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classFive"
+                        android:text="课程"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="六"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_1"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_2"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_3"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_4"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_5"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_6"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="100dp"
+                        android:background="@color/apartLine"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/class_6_7"
+
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:padding="5px"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@color/classSix"
+                        android:text="课程"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

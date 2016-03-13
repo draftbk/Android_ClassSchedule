@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_bg">#F2F1ED</color>
+    <color name="courseNow">#39D3AD</color>
+    <color name="courseNot">#F2F1ED</color>
+    <color name="shopGreen">#31CFDE</color>
+
+    //我的颜色配置
+    <color name="weekday">#C4C4C4</color>
+    <color name="classOne">#FF4040</color>
+    <color name="classTwo">#FFB90F</color>
+    <color name="classThree">#FFFF00</color>
+    <color name="classFour">#98FB98</color>
+    <color name="classFive">#00BFFF</color>
+    <color name="classSix">#9F79EE</color>
+    <color name="apartLine">#5E5E5E</color>
+</resources>

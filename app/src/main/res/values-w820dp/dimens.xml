@@ -1,0 +1,21 @@
+<resources>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">35dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="head_height">40dp</dimen>
+    <dimen name="head_btn_width">35dp</dimen>
+    <dimen name="course_week_width">580dp</dimen>
+    <dimen name="course_week_height">20dp</dimen>
+    <dimen name="course_week_item_width">80dp</dimen>
+    <dimen name="course_num_width">20dp</dimen>
+    <dimen name="course_num_height">730dp</dimen>
+    <dimen name="course_num_item_height">60dp</dimen>
+</resources>
